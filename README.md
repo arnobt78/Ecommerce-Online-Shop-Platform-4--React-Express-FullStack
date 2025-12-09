@@ -1,4 +1,4 @@
-# Comfy Store | E-Commerce Platform - React, Vite, Redux Toolkit FullStack Project
+# Comfy Store | E-Commerce Platform - React, Vite, Redux Toolkit, Node.js, Express.js FullStack Project
 
 An advanced, modern eCommerce web application built with React, Vite, Redux Toolkit, TailwindCSS, DaisyUI, and more. This project demonstrates a real-world online shop with a rich set of features, clean project structure, and best practices for state management, UI, and API integration.
 
