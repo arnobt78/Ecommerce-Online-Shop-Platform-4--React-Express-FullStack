@@ -356,6 +356,3 @@ If you have any questions or want to share your work, reach out via GitHub or my
 
 Thank you! 😊
 
-**Author:** [arnobt78](https://github.com/arnobt78)
-
----
