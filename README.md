@@ -1,12 +1,10 @@
-# Comfy Store | E-Commerce Platform - React, Vite, Redux Toolkit, Node.js, Express.js FullStack Project
+# Comfy Store | E-Commerce Platform 4 - React, Vite, Redux Toolkit, Node.js, Express.js FullStack Project
 
 An advanced, modern eCommerce web application built with React, Vite, Redux Toolkit, TailwindCSS, DaisyUI, and more. This project demonstrates a real-world online shop with a rich set of features, clean project structure, and best practices for state management, UI, and API integration.
 
 - **Live Demo:** [https://ecommerce-comfy-arnob.netlify.app/](https://ecommerce-comfy-arnob.netlify.app/)
 
 <img width="1125" alt="Screenshot 2025-02-25 at 16 26 43" src="https://github.com/user-attachments/assets/9cecb6cc-6dd5-4944-ae68-d7b1ec53d67a" /> <img width="1101" alt="Screenshot 2025-02-25 at 16 26 56" src="https://github.com/user-attachments/assets/c7ed2baa-9b44-445e-b5d0-a574b5adf7d1" /> <img width="1105" alt="Screenshot 2025-02-25 at 16 28 17" src="https://github.com/user-attachments/assets/78dc6803-3afa-46d4-9602-80d3d4f4430d" /> <img width="1101" alt="Screenshot 2025-02-25 at 16 28 37" src="https://github.com/user-attachments/assets/0414051f-2d85-4c38-97be-1b6ba231a04d" /> <img width="1114" alt="Screenshot 2025-02-25 at 16 29 21" src="https://github.com/user-attachments/assets/96f92595-a8aa-4b53-83ad-26f535bc7fd1" /> <img width="1106" alt="Screenshot 2025-02-25 at 16 29 54" src="https://github.com/user-attachments/assets/1cca2809-225f-4226-8ce2-df1d2f20ece7" /> <img width="1105" alt="Screenshot 2025-02-25 at 16 30 23" src="https://github.com/user-attachments/assets/ca100a98-b9a0-4b30-b4b2-45ed8eadaec7" />
-
----
 
 ## Table of Contents
 
@@ -343,6 +341,20 @@ export default Login;
 eCommerce-Comfy demonstrates how to build a scalable, maintainable, and feature-rich eCommerce application with the latest React ecosystem tools. The structure, code samples, and learning challenges make it suitable for both learning and production-ready eCommerce solutions. Feel free to fork, contribute, or use as a reference for your own projects!
 
 ---
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
+
+## Happy Coding! 🎉
+
+This is an **open-source project** - feel free to use, enhance, and extend this project further!
+
+If you have any questions or want to share your work, reach out via GitHub or my portfolio at [https://www.arnobmahmud.com](https://www.arnobmahmud.com).
+
+**Enjoy building and learning!** 🚀
+
+Thank you! 😊
 
 **Author:** [arnobt78](https://github.com/arnobt78)
 
