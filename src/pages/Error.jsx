@@ -1,3 +1,6 @@
+/**
+ * Root-level error boundary: 404 shows "page not found" + link home; other errors show generic message.
+ */
 import { useRouteError, Link } from 'react-router-dom';
 
 const Error = () => {

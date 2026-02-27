@@ -1,3 +1,6 @@
+/**
+ * Checkout page: form + CartTotals. Loader redirects to /login if not authenticated. Empty cart shows message.
+ */
 import { useSelector } from 'react-redux';
 import { CheckoutForm, SectionTitle, CartTotals } from '../components';
 import { toast } from 'react-toastify';

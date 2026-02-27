@@ -1,3 +1,7 @@
+/**
+ * Single product detail: image, title, company, price, description, color picker, quantity, Add to bag.
+ * Loader fetches product by id; cartID = product.id + color so same product in two colors are separate line items.
+ */
 import { useLoaderData } from 'react-router-dom';
 import { formatPrice, customFetch, generateAmountOptions } from '../utils';
 import { Link } from 'react-router-dom';

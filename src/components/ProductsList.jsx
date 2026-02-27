@@ -1,3 +1,4 @@
+/** Product rows (image + title/company + price); same loader data as ProductsGrid, different layout. */
 import { Link, useLoaderData } from 'react-router-dom';
 import { formatPrice } from '../utils';
 

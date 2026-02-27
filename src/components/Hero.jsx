@@ -1,3 +1,6 @@
+/**
+ * Landing hero: headline, short copy, CTA to /products, and image carousel (DaisyUI carousel on lg).
+ */
 import { Link } from 'react-router-dom';
 
 import hero1 from '../assets/hero1.webp';

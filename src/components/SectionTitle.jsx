@@ -1,3 +1,4 @@
+/** Reusable section heading with bottom border; used for "Featured Products", "Shopping Cart", etc. */
 const SectionTitle = ({ text }) => {
   return (
     <div className='border-b border-base-300 pb-5'>

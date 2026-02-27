@@ -1,3 +1,6 @@
+/**
+ * Submit button that shows loading state while the route action is running (navigation.state === 'submitting').
+ */
 import { useNavigation } from 'react-router-dom';
 
 const SubmitBtn = ({ text }) => {

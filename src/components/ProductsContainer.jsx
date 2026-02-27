@@ -1,3 +1,7 @@
+/**
+ * Wraps product list: shows total count, grid/list toggle, and either ProductsGrid or ProductsList.
+ * Products page and Featured (landing) both use ProductsGrid; only Products page has filters + list view.
+ */
 import { useLoaderData } from 'react-router-dom';
 import ProductsGrid from './ProductsGrid';
 import ProductsList from './ProductsList';

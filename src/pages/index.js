@@ -1,3 +1,4 @@
+// Barrel file: re-export pages for App.jsx imports
 export { default as About } from './About';
 export { default as Cart } from './Cart';
 export { default as Checkout } from './Checkout';

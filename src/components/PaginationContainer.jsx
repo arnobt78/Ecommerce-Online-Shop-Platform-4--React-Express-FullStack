@@ -1,3 +1,6 @@
+/**
+ * Products page pagination: Prev/Next + page numbers. Updates URL search params so loader refetches for that page.
+ */
 import { useLoaderData, useLocation, useNavigate } from 'react-router-dom';
 
 const PaginationContainer = () => {

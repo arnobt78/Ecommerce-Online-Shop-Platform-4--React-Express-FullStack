@@ -1,3 +1,7 @@
+/**
+ * Top bar: shows greeting + logout when logged in, or Sign in / Create Account links.
+ * On logout we clear cart, user state, and TanStack Query cache so no stale data is shown.
+ */
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { clearCart } from '../features/cart/cartSlice';

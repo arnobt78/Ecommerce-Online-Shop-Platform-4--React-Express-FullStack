@@ -1,3 +1,4 @@
+/** Controlled-style input with label; supports size (e.g. input-sm). Used in Login, Register, Filters, Checkout. */
 const FormInput = ({ label, name, type, defaultValue, size }) => {
   return (
     <div className='form-control'>

@@ -1,3 +1,4 @@
+/** Price range slider (0 to maxPrice in cents). Local state for display; form submits current value. */
 import { formatPrice } from '../utils';
 import { useState } from 'react';
 const FormRange = ({ label, name, size, price }) => {

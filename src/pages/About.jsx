@@ -1,3 +1,4 @@
+/** Simple about page: branding and short copy. */
 const About = () => {
   return (
     <>

@@ -1,3 +1,6 @@
+/**
+ * Orders page pagination: first page, "...", current, "...", last page. Keeps URL in sync for orders loader.
+ */
 import { useLoaderData, useLocation, useNavigate } from 'react-router-dom';
 
 const ComplexPaginationContainer = () => {

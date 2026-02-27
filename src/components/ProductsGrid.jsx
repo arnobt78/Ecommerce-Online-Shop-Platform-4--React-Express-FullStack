@@ -1,3 +1,4 @@
+/** Product cards in a responsive grid; each links to /products/:id. Data from route loader. */
 import { Link, useLoaderData } from 'react-router-dom';
 import { formatPrice } from '../utils';
 

@@ -1,3 +1,6 @@
+/**
+ * Register page: username, email, password. Action POST /auth/local/register then redirect to /login.
+ */
 import { FormInput, SubmitBtn } from '../components';
 import { Form, Link, redirect } from 'react-router-dom';
 import { customFetch } from '../utils';
@@ -8,7 +11,7 @@ export const action = async ({ request }) => {
   const data = Object.fromEntries(formData);
 
   try {
-    const response = await customFetch.post('/auth/local/register', data);
+    await customFetch.post('/auth/local/register', data);
     toast.success('account created successfully');
     return redirect('/login');
   } catch (error) {

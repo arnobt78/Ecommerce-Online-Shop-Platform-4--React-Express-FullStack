@@ -1,3 +1,7 @@
+/**
+ * Shared layout for /, /products, /cart, etc.: Header, Navbar, and Outlet.
+ * Shows full-screen Loading when a child route is loading (loader running).
+ */
 import { Outlet, useNavigation } from 'react-router-dom';
 import { Header, Navbar, Loading } from '../components';
 const HomeLayout = () => {

@@ -1,3 +1,7 @@
+/**
+ * Products listing: Filters (submit as GET params), ProductsContainer (grid/list), PaginationContainer.
+ * Loader reads URL search params and fetches products with those filters; queryKey includes all params for cache.
+ */
 import { Filters, PaginationContainer, ProductsContainer } from '../components';
 import { customFetch } from '../utils';
 const url = '/products';

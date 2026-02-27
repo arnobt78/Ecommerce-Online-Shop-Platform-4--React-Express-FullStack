@@ -1,3 +1,4 @@
+/** Checkbox with label (e.g. "free shipping" in Filters). defaultChecked for uncontrolled initial state. */
 const FormCheckbox = ({ label, name, defaultValue, size }) => {
   return (
     <div className='form-control items-center'>

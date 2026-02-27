@@ -1,3 +1,4 @@
+/** Dropdown built from list array; used for category, company, sort in Filters. */
 const FormSelect = ({ label, name, list, defaultValue, size }) => {
   return (
     <div className='form-control'>

@@ -1,3 +1,7 @@
+/**
+ * Main navigation: logo, NavLinks (desktop + mobile dropdown), theme toggle, cart icon with badge.
+ * Theme checkbox triggers DaisyUI theme switch (winter/dracula) via userSlice.
+ */
 import { BsCart3, BsMoonFill, BsSunFill } from "react-icons/bs";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";

@@ -1,3 +1,6 @@
+/**
+ * Landing page: Hero + FeaturedProducts. Loader prefetches featured products via TanStack Query.
+ */
 import { FeaturedProducts, Hero } from '../components';
 
 import { customFetch } from '../utils';
@@ -8,6 +11,7 @@ const featuredProductsQuery = {
   queryFn: () => customFetch(url),
 };
 
+// ensureQueryData: fetch if missing, otherwise use cache; loader passes products to route
 export const loader = (queryClient) => async () => {
   const response = await queryClient.ensureQueryData(featuredProductsQuery);
 

@@ -1,3 +1,7 @@
+/**
+ * App root: defines routing (React Router v6), wraps app in TanStack Query, and wires loaders/actions.
+ * Loaders prefetch data before routes render; actions handle form submissions (login, register, checkout).
+ */
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
@@ -17,18 +21,19 @@ import {
 
 import { ErrorElement } from './components';
 
-// loaders
+// loaders: run before route renders, use queryClient.ensureQueryData for server state
 import { loader as landingLoader } from './pages/Landing';
 import { loader as singleProductLoader } from './pages/SingleProduct';
 import { loader as productsLoader } from './pages/Products';
 import { loader as checkoutLoader } from './pages/Checkout';
 import { loader as ordersLoader } from './pages/Orders';
-// actions
+// actions: handle POST submissions (Form method="post"), e.g. login, register, place order
 import { action as registerAction } from './pages/Register';
 import { action as loginAction } from './pages/Login';
 import { action as checkoutAction } from './components/CheckoutForm';
 import { store } from './store';
 
+// Data considered fresh for 5 minutes; reduces refetches when navigating
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
@@ -37,6 +42,7 @@ const queryClient = new QueryClient({
   },
 });
 
+// Nested routes under HomeLayout share Header/Navbar; loaders receive queryClient or store where needed
 const router = createBrowserRouter([
   {
     path: '/',
@@ -82,6 +88,7 @@ const router = createBrowserRouter([
       },
     ],
   },
+  // Auth routes: no layout wrapper; form submissions handled by action
   {
     path: '/login',
     element: <Login />,

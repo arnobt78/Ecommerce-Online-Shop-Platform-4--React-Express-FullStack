@@ -1,3 +1,6 @@
+/**
+ * Cart page: items list + totals. If empty, show message. If logged in, link to checkout; else link to login.
+ */
 import { useSelector } from 'react-redux';
 import { CartItemsList, SectionTitle, CartTotals } from '../components';
 import { Link } from 'react-router-dom';

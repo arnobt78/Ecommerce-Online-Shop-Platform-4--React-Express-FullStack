@@ -1,3 +1,7 @@
+/**
+ * User slice: auth (user + JWT) and UI theme (winter/dracula). Both persisted in localStorage.
+ * data-theme on <html> drives DaisyUI theme; toggling updates DOM and store.
+ */
 import { createSlice } from '@reduxjs/toolkit';
 import { toast } from 'react-toastify';
 

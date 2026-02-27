@@ -1,3 +1,4 @@
+/** Renders list of CartItem components from Redux cart state. */
 import { useSelector } from 'react-redux';
 import CartItem from './CartItem';
 

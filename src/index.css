@@ -1,7 +1,9 @@
+/* Tailwind layers: base (reset), components, utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Reusable layout class: centered container with max-width and horizontal padding */
 @layer components {
   .align-element {
     @apply mx-auto max-w-6xl px-8;

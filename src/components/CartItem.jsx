@@ -1,3 +1,7 @@
+/**
+ * Single cart line item: image, title, company, color badge, quantity select, remove, price.
+ * Editing quantity or remove dispatches cart slice actions; totals recalc in reducer.
+ */
 import { formatPrice, generateAmountOptions } from '../utils';
 import { removeItem, editItem } from '../features/cart/cartSlice';
 import { useDispatch } from 'react-redux';

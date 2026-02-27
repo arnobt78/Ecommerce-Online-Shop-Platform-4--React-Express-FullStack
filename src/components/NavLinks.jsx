@@ -1,3 +1,6 @@
+/**
+ * Renders nav menu items. Checkout and Orders are hidden when user is not logged in.
+ */
 import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 

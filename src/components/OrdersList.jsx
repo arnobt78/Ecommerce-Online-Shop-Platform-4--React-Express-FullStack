@@ -1,3 +1,4 @@
+/** Table of user orders (name, address, item count, total, date). Data from Orders page loader. */
 import { useLoaderData } from 'react-router-dom';
 import day from 'dayjs';
 import advancedFormat from 'dayjs/plugin/advancedFormat';

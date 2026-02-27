@@ -1,3 +1,7 @@
+/**
+ * Cart slice: cart items, counts, and totals. Persisted to localStorage so cart survives refresh.
+ * Reducers update state and sync to localStorage; calculateTotals is also called from other reducers.
+ */
 import { createSlice } from '@reduxjs/toolkit';
 import { toast } from 'react-toastify';
 
@@ -31,7 +35,7 @@ const cartSlice = createSlice({
       cartSlice.caseReducers.calculateTotals(state);
       toast.success('Item added to cart');
     },
-    clearCart: (state) => {
+    clearCart: (_state) => {
       localStorage.setItem('cart', JSON.stringify(defaultState));
       return defaultState;
     },
@@ -53,6 +57,7 @@ const cartSlice = createSlice({
       cartSlice.caseReducers.calculateTotals(state);
       toast.success('Cart updated');
     },
+    // Tax 10%; orderTotal = cartTotal + shipping + tax. Persist full state to localStorage.
     calculateTotals: (state) => {
       state.tax = 0.1 * state.cartTotal;
       state.orderTotal = state.cartTotal + state.shipping + state.tax;

@@ -1,3 +1,4 @@
+/** Shown when a child route throws or loader fails; useRouteError() has error details. */
 import { useRouteError } from 'react-router-dom';
 
 const ErrorElement = () => {

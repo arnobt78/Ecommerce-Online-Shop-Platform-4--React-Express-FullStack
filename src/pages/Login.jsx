@@ -1,3 +1,7 @@
+/**
+ * Login page: email/password form (submitted to route action) and Guest user button (client-side fetch + dispatch).
+ * Action: POST /auth/local, dispatch loginUser with JWT, redirect to /.
+ */
 import { FormInput, SubmitBtn } from '../components';
 import { Form, Link, redirect, useNavigate } from 'react-router-dom';
 import { customFetch } from '../utils';
@@ -29,6 +33,7 @@ const Login = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
+  // Demo guest login (uses fixed Strapi demo credentials)
   const loginAsGuestUser = async () => {
     try {
       const response = await customFetch.post('/auth/local', {

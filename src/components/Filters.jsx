@@ -1,3 +1,7 @@
+/**
+ * Product filters form: search, category, company, sort order, price range, free shipping.
+ * Submit sends GET with query params; Products loader refetches with new params. Reset clears to /products.
+ */
 import { Form, useLoaderData, Link } from 'react-router-dom';
 import FormInput from './FormInput';
 import FormSelect from './FormSelect';

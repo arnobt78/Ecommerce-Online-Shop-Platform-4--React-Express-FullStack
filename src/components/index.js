@@ -1,3 +1,4 @@
+// Barrel file: re-export components for cleaner imports (e.g. import { Header } from '../components')
 export { default as FormInput } from './FormInput';
 export { default as SubmitBtn } from './SubmitBtn';
 export { default as Header } from './Header';

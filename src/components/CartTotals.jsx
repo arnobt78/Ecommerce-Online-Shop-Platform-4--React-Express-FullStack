@@ -1,3 +1,4 @@
+/** Displays subtotal, shipping, tax, order total from Redux cart state (formatPrice for USD). */
 import { useSelector } from 'react-redux';
 import { formatPrice } from '../utils';
 
